@@ -49,7 +49,7 @@ python yolo_v2.py
 
 
 ## More Details
-// todo
+\# todo
 
 ## TODOs
 - Unify the interface in the video detection part.
