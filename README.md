@@ -1,5 +1,5 @@
 # Object Detection with YOLOv2
-Final project by Group 2 (Localization) in Innovation & Practice Course (2018, Spring).
+**Final project** by Group 2 (Localization) in **Innovation & Practice Course** (2018, Spring).
 
 ## Inspiration
 This repo [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA) contains a tutorial for **YOLOv2**, which is a programming assignment in [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks/) by Andrew Ng. 
@@ -22,7 +22,7 @@ pip install opencv-python
 ```
 
 ## Quick Start
-- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password:8kim) `yolo.h5` in `model_data`
+- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password: 8kim) `yolo.h5` and put it into `model_data/`
 - Put your test image/video in `images/` or `videos/`
 - Set your image/video file name and shape in `yolo_v2.py`
 ```python
