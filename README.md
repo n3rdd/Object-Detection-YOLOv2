@@ -22,7 +22,7 @@ pip install opencv-python
 ```
 
 ## Quick Start
-- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password:8kim) `yolo.h5` in `model_data`
+- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password: 8kim) `yolo.h5` and put it into `model_data/`
 - Put your test image/video in `images/` or `videos/`
 - Set your image/video file name and shape in `yolo_v2.py`
 ```python
