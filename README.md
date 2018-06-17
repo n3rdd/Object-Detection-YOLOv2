@@ -16,15 +16,15 @@ This repo [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA) contains
 Use `pip` to install the required packages in your command line. Visit the official sites above for more details.
 ```bash
 pip install numpy h5py
-pip install tensorflow
+pip install tensorflow # CPU-only
 pip install keras
 pip install opencv-python
 ```
 
 ## Quick Start
-- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password: 8kim) `yolo.h5` and put it into `model_data/`
-- Put your test image/video in `images/` or `videos/`
-- Set your image/video file name and shape in `yolo_v2.py`
+- [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ)(Password: 8kim) `yolo.h5` and put it into `model_data/`.
+- Put your test image/video in `images/` or `videos/`.
+- Set your image/video file and shape in `yolo_v2.py`.
 ```python
 if __name__ == '__main__':
     '''
@@ -35,7 +35,7 @@ if __name__ == '__main__':
     
     # Detect a video
     video_file = "traffic.mp4"
-    predict_video(sess, video_file)
+    predict_video(sess, video_file) # output in out/
 
     # Uncomment the code below to detect an image
     # out_scores, out_boxes, out_classes = predict_image(sess, "person.jpg")
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 python yolo_v2.py
 ```
 - The prediction info will be printed into `output.txt`.
-- The notebook version will be uploaded very soon.
+- The **notebook** version will be uploaded very soon.
 
 
 ## More Details
