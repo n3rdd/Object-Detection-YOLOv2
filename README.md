@@ -1,6 +1,6 @@
-# object-detection-YOLOv2
-### Final project by group 2 (Localization) in Innovation&Practice Course, 2018 Spring.
-----------------------------------------------------------------------------------------
+# Object Detection with YOLOv2
+Final project by group 2 (Localization) in Innovation&Practice Course, 2018 Spring.
+
 ## Inspiration
 [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA)
 Week 3 Programming Assignment in **Convolutional Neural Networks**. 
