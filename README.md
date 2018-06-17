@@ -1,5 +1,5 @@
 # Object Detection with YOLOv2
-Final project by Group 2 (Localization) in Innovation & Practice Course (2018, Spring).
+**Final project** by Group 2 (Localization) in **Innovation & Practice Course** (2018, Spring).
 
 ## Inspiration
 This repo [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA) contains a tutorial for **YOLOv2**, which is a programming assignment in [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks/) by Andrew Ng. 
