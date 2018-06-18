@@ -8,7 +8,6 @@ This repo is based on [Car-detection-PA](https://github.com/n3rdd/Car-detection-
 - [Keras](https://github.com/fchollet/keras)
 - [Tensorflow](https://www.tensorflow.org/) (For Keras backend.)
 - [OpenCV](https://pypi.org/project/opencv-python/)
-- [Numpy](http://www.numpy.org/)
 - [h5py](http://www.h5py.org/) (For Keras model serialization.)
 - [Python 3](https://www.python.org/)
 
@@ -21,7 +20,7 @@ pip install keras
 pip install opencv-python
 ```
 
-## Quick Start
+## Get Started
 - [Download](https://pan.baidu.com/s/1sos5oov7V3O0uwOjoUvbuQ) (Password: 8kim) an existing pretrained Keras YOLO model stored in  `yolo.h5`. (These weights come from the official YOLO website, and were converted using a function written in [YAD2K](https://github.com/allanzelener/YAD2K)) and put it into `model_data/` folder.
 - Put your test image/video in `images/` or `videos/`.
 - Set your image/video file and shape in `yolo_v2.py`.
