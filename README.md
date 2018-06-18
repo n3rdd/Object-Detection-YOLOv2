@@ -2,7 +2,7 @@
 **Final project** by Group 2 (Localization) in **Innovation & Practice Course** (2018, Spring).
 
 ## Inspiration
-This repo was based on [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA), containing a tutorial for **YOLOv2**, which is a programming assignment in [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks/) by Andrew Ng. 
+This repo is based on [Car-detection-PA](https://github.com/n3rdd/Car-detection-PA), containing a tutorial for **YOLOv2**, which is a programming assignment in [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks/) by Andrew Ng. 
 
 ## Requirements
 - [Keras](https://github.com/fchollet/keras)
