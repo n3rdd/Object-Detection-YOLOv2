@@ -144,7 +144,7 @@ def yolo_eval(yolo_outputs, image_shape = (720., 1280.), max_boxes=10, score_thr
     # Convert boxes to be ready for filtering functions 
     boxes = yolo_boxes_to_corners(box_xy, box_wh)
 
-    # Use one of the functions you've implemented to perform Score-filtering with a threshold of score_threshold (≈1 line)
+    # Use one of the functions you've implemented to perform Score-filtering with a threshold of score_threshold
     scores, boxes, classes = yolo_filter_boxes(box_confidence, boxes, box_class_probs, threshold = score_threshold)
     
     # Scale boxes back to original image shape.
